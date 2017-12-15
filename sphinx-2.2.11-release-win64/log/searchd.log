@@ -1,0 +1,185 @@
+[Fri Dec 15 15:05:38.591 2017] [2900] listening on all interfaces, port=9312
+[Fri Dec 15 15:05:38.593 2017] [2900] listening on all interfaces, port=9306
+[Fri Dec 15 15:05:38.594 2017] [2900] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 15:05:38.650 2017] [2900] accepting connections
+[Fri Dec 15 16:01:43.814 2017] [2900] caught SIGTERM, shutting down
+[Fri Dec 15 16:01:43.895 2017] [2900] rt: index testrt: ramchunk saved in 0.018 sec
+[Fri Dec 15 16:01:43.971 2017] [2900] shutdown complete
+[Fri Dec 15 16:11:18.063 2017] [3272] listening on all interfaces, port=9312
+[Fri Dec 15 16:11:18.064 2017] [3272] listening on all interfaces, port=9306
+[Fri Dec 15 16:11:18.064 2017] [3272] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:11:18.071 2017] [3272] accepting connections
+[Fri Dec 15 16:12:21.239 2017] [3272] caught SIGTERM, shutting down
+[Fri Dec 15 16:12:21.257 2017] [3272] rt: index testrt: ramchunk saved in 0.017 sec
+[Fri Dec 15 16:12:21.354 2017] [3272] shutdown complete
+[Fri Dec 15 16:12:45.725 2017] [1608] listening on all interfaces, port=9312
+[Fri Dec 15 16:12:45.726 2017] [1608] listening on all interfaces, port=9306
+[Fri Dec 15 16:12:45.727 2017] [1608] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:12:45.733 2017] [1608] accepting connections
+[Fri Dec 15 16:12:57.930 2017] [1608] caught SIGTERM, shutting down
+[Fri Dec 15 16:12:57.964 2017] [1608] rt: index testrt: ramchunk saved in 0.017 sec
+[Fri Dec 15 16:12:58.028 2017] [1608] shutdown complete
+[Fri Dec 15 16:14:13.561 2017] [9160] listening on all interfaces, port=9312
+[Fri Dec 15 16:14:13.562 2017] [9160] listening on all interfaces, port=9306
+[Fri Dec 15 16:14:13.562 2017] [9160] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:14:13.562 2017] [9160] FATAL: no valid indexes to serve
+[Fri Dec 15 16:14:36.762 2017] [4388] listening on all interfaces, port=9312
+[Fri Dec 15 16:14:36.763 2017] [4388] listening on all interfaces, port=9306
+[Fri Dec 15 16:14:36.763 2017] [4388] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:14:36.766 2017] [4388] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:14:38.772 2017] [8796] listening on all interfaces, port=9312
+[Fri Dec 15 16:14:38.773 2017] [8796] listening on all interfaces, port=9306
+[Fri Dec 15 16:14:38.774 2017] [8796] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:14:38.777 2017] [8796] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:20.575 2017] [8532] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:20.576 2017] [8532] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:20.577 2017] [8532] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:20.579 2017] [8532] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:22.680 2017] [4020] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:22.681 2017] [4020] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:22.681 2017] [4020] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:22.684 2017] [4020] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:23.725 2017] [4080] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:23.726 2017] [4080] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:23.726 2017] [4080] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:23.731 2017] [4080] accepting connections
+[Fri Dec 15 16:15:36.282 2017] [4080] caught SIGTERM, shutting down
+[Fri Dec 15 16:15:36.305 2017] [4080] rt: index testrt: ramchunk saved in 0.022 sec
+[Fri Dec 15 16:15:36.379 2017] [4080] shutdown complete
+[Fri Dec 15 16:15:39.523 2017] [9540] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:39.524 2017] [9540] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:39.524 2017] [9540] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:39.527 2017] [9540] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:41.424 2017] [4316] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:41.425 2017] [4316] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:41.425 2017] [4316] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:41.428 2017] [4316] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:42.194 2017] [9712] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:42.195 2017] [9712] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:42.195 2017] [9712] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:42.197 2017] [9712] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:15:42.996 2017] [2484] listening on all interfaces, port=9312
+[Fri Dec 15 16:15:42.997 2017] [2484] listening on all interfaces, port=9306
+[Fri Dec 15 16:15:42.997 2017] [2484] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:15:43.002 2017] [2484] accepting connections
+[Fri Dec 15 16:16:17.954 2017] [2484] caught SIGTERM, shutting down
+[Fri Dec 15 16:16:17.971 2017] [2484] rt: index testrt: ramchunk saved in 0.016 sec
+[Fri Dec 15 16:16:18.025 2017] [2484] shutdown complete
+[Fri Dec 15 16:16:30.633 2017] [9668] listening on all interfaces, port=9312
+[Fri Dec 15 16:16:30.634 2017] [9668] listening on all interfaces, port=9306
+[Fri Dec 15 16:16:30.634 2017] [9668] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:16:30.637 2017] [9668] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:16:41.260 2017] [3412] listening on all interfaces, port=9312
+[Fri Dec 15 16:16:41.260 2017] [3412] listening on all interfaces, port=9306
+[Fri Dec 15 16:16:41.261 2017] [3412] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:16:41.266 2017] [3412] accepting connections
+[Fri Dec 15 16:16:49.080 2017] [3412] caught SIGTERM, shutting down
+[Fri Dec 15 16:16:49.098 2017] [3412] rt: index testrt: ramchunk saved in 0.018 sec
+[Fri Dec 15 16:16:49.209 2017] [3412] shutdown complete
+[Fri Dec 15 16:16:54.761 2017] [8828] listening on all interfaces, port=9312
+[Fri Dec 15 16:16:54.762 2017] [8828] listening on all interfaces, port=9306
+[Fri Dec 15 16:16:54.762 2017] [8828] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:16:54.765 2017] [8828] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:17:19.065 2017] [6920] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:19.066 2017] [6920] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:19.066 2017] [6920] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:19.069 2017] [6920] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:17:20.602 2017] [9704] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:20.602 2017] [9704] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:20.603 2017] [9704] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:20.607 2017] [9704] accepting connections
+[Fri Dec 15 16:17:30.582 2017] [9704] caught SIGTERM, shutting down
+[Fri Dec 15 16:17:30.600 2017] [9704] rt: index testrt: ramchunk saved in 0.016 sec
+[Fri Dec 15 16:17:30.636 2017] [9704] shutdown complete
+[Fri Dec 15 16:17:35.840 2017] [5368] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:35.841 2017] [5368] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:35.841 2017] [5368] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:35.847 2017] [5368] accepting connections
+[Fri Dec 15 16:17:39.508 2017] [5368] caught SIGTERM, shutting down
+[Fri Dec 15 16:17:39.542 2017] [5368] rt: index testrt: ramchunk saved in 0.017 sec
+[Fri Dec 15 16:17:39.645 2017] [5368] shutdown complete
+[Fri Dec 15 16:17:42.945 2017] [2188] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:42.945 2017] [2188] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:42.946 2017] [2188] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:42.951 2017] [2188] accepting connections
+[Fri Dec 15 16:17:45.600 2017] [2188] caught SIGTERM, shutting down
+[Fri Dec 15 16:17:45.666 2017] [2188] rt: index testrt: ramchunk saved in 0.018 sec
+[Fri Dec 15 16:17:45.714 2017] [2188] shutdown complete
+[Fri Dec 15 16:17:48.231 2017] [9692] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:48.231 2017] [9692] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:48.231 2017] [9692] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:48.234 2017] [9692] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:17:51.223 2017] [8016] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:51.224 2017] [8016] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:51.224 2017] [8016] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:51.226 2017] [8016] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:17:52.996 2017] [4088] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:52.997 2017] [4088] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:52.997 2017] [4088] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:53.002 2017] [4088] accepting connections
+[Fri Dec 15 16:17:55.483 2017] [4088] caught SIGTERM, shutting down
+[Fri Dec 15 16:17:55.491 2017] [4088] rt: index testrt: ramchunk saved in 0.008 sec
+[Fri Dec 15 16:17:55.550 2017] [4088] shutdown complete
+[Fri Dec 15 16:17:59.817 2017] [4260] listening on all interfaces, port=9312
+[Fri Dec 15 16:17:59.818 2017] [4260] listening on all interfaces, port=9306
+[Fri Dec 15 16:17:59.818 2017] [4260] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:17:59.823 2017] [4260] accepting connections
+[Fri Dec 15 16:18:01.961 2017] [4260] caught SIGTERM, shutting down
+[Fri Dec 15 16:18:01.979 2017] [4260] rt: index testrt: ramchunk saved in 0.017 sec
+[Fri Dec 15 16:18:02.025 2017] [4260] shutdown complete
+[Fri Dec 15 16:18:04.322 2017] [1696] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:04.323 2017] [1696] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:04.323 2017] [1696] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:04.331 2017] [1696] accepting connections
+[Fri Dec 15 16:18:06.633 2017] [1696] caught SIGTERM, shutting down
+[Fri Dec 15 16:18:06.652 2017] [1696] rt: index testrt: ramchunk saved in 0.018 sec
+[Fri Dec 15 16:18:06.673 2017] [1696] shutdown complete
+[Fri Dec 15 16:18:08.814 2017] [4796] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:08.814 2017] [4796] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:08.815 2017] [4796] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:08.818 2017] [4796] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:10.462 2017] [4864] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:10.463 2017] [4864] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:10.464 2017] [4864] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:10.469 2017] [4864] accepting connections
+[Fri Dec 15 16:18:14.459 2017] [4864] caught SIGTERM, shutting down
+[Fri Dec 15 16:18:14.480 2017] [4864] rt: index testrt: ramchunk saved in 0.020 sec
+[Fri Dec 15 16:18:14.546 2017] [4864] shutdown complete
+[Fri Dec 15 16:18:16.766 2017] [3540] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:16.767 2017] [3540] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:16.767 2017] [3540] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:16.770 2017] [3540] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:18.099 2017] [5352] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:18.100 2017] [5352] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:18.100 2017] [5352] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:18.102 2017] [5352] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:19.166 2017] [2196] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:19.167 2017] [2196] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:19.167 2017] [2196] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:19.169 2017] [2196] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:20.218 2017] [944] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:20.218 2017] [944] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:20.219 2017] [944] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:20.223 2017] [944] accepting connections
+[Fri Dec 15 16:18:23.818 2017] [944] caught SIGTERM, shutting down
+[Fri Dec 15 16:18:23.836 2017] [944] rt: index testrt: ramchunk saved in 0.017 sec
+[Fri Dec 15 16:18:23.947 2017] [944] shutdown complete
+[Fri Dec 15 16:18:33.695 2017] [604] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:33.696 2017] [604] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:33.696 2017] [604] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:33.699 2017] [604] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:36.177 2017] [6648] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:36.178 2017] [6648] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:36.178 2017] [6648] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:36.180 2017] [6648] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:37.913 2017] [5100] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:37.913 2017] [5100] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:37.914 2017] [5100] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:37.915 2017] [5100] FATAL: failed to open 'C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data/binlog.lock': 13 'Permission denied'
+[Fri Dec 15 16:18:39.314 2017] [6916] listening on all interfaces, port=9312
+[Fri Dec 15 16:18:39.314 2017] [6916] listening on all interfaces, port=9306
+[Fri Dec 15 16:18:39.315 2017] [6916] WARNING: index 'test1': preload: failed to open C:\Users\shikw\Downloads\sphinx-2.2.11-release-win64\data\test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 15 16:18:39.321 2017] [6916] accepting connections
+[Fri Dec 15 16:19:09.969 2017] [6916] caught SIGTERM, shutting down
+[Fri Dec 15 16:19:10.040 2017] [6916] rt: index testrt: ramchunk saved in 0.071 sec
+[Fri Dec 15 16:19:10.066 2017] [6916] shutdown complete

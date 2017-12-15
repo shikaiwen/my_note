@@ -22,7 +22,7 @@ $(function () {
         name: 'layout',
         panels: [
             { type: 'top',  size: 50, resizable: true, style: pstyle, content: 'top' },
-            { type: 'left', size: 80, resizable: true, style: pstyle, content: 'left' },
+            { type: 'left', size: 180, resizable: true, style: pstyle, content: $("#left") },
             { type: 'main', style: pstyle, content: $("#main") }
             
             
@@ -33,23 +33,73 @@ $(function () {
 	var ue = UE.getEditor('container');
 	ue.focus();
 
+
+    initTags();
+
 });
+
+
+function initTags(){
+    
+
+
+    listTags = [{"id":"b6599bff-099e-43f0-983d-daa08213b320","text":"待研究的问题"},{"id":"9555f2f5-1ad9-4929-91c3-c98eb3222b05","text":"tomcat分析"},{"id":"3b695bc5-e6ec-48c1-b67d-28ca501739d3","text":"Android模拟器加速"},{"id":"6bae9f43-fbf6-4159-935a-aeb84e9c766a","text":"随手记录中要的内"},{"id":"b10e9196-3be1-4b35-bebc-06e5a66eb0e6","text":"Tomcat-apache-nginx"},{"id":"4277f8ff-d1fb-4098-8875-adbc2aa0b5f1","text":"HttpClient"},{"id":"d401cad9-075b-4222-9821-3999f1373b94","text":"Java基础知识"},{"id":"0acf3cca-9de8-4796-83c6-32bea3cbefd4","text":"要做的项目"},{"id":"4fa84e06-46ae-4124-ae52-ee1f96aaa9fe","text":"git learning"},{"id":"691aba51-2301-49ab-93d0-9e15bd0c85c4","text":"虚拟机Virtualbox"},{"id":"ae7e497b-bf4c-42c4-83be-da105ba66f42","text":"Spring"},{"id":"1c724915-8ebf-42cc-8ae8-ca43572fe741","text":"人事代理相关"},{"id":"42e635c7-7508-4534-b011-0012e6fd6c7d","text":"翻译"},{"id":"5557ceeb-44c0-4601-b1b7-b9451ffc6f07","text":"WebService"},
+        {"id":"ca9bea51-c560-41b2-a46b-2900d2b8d3d4","text":"Linux 学习"},{"id":"2db1e241-4476-4a8a-ade8-b32981084387","text":"条形码"},{"id":"c4a78245-1bed-45ff-a098-1dd13eb89423","text":"工具学习"},{"id":"09e9dbc6-7a3b-4263-b13a-d3161fbd7e65","text":"磁盘管理相关"},{"id":"e26b1428-c1ee-4f4a-929d-0c2741b8bd1f","text":"SVN"},{"id":"c4157314-905a-49f8-9e39-f02a9146eb0e","text":"ORM工具、mybatis、hibernate"},{"id":"0f38b3fd-8a69-4dd9-92a3-ad3405411630","text":"二维码"},{"id":"ff92d833-1078-4308-8b7e-79639996ae85","text":"网站SEO"},{"id":"8b27aec2-d70e-4a1f-8f24-6c365f677bd0","text":"NodeJS"},{"id":"acee50c4-22f6-49b4-9214-fd7317deafd7","text":"文章"},{"id":"ed3dcfab-9582-45e2-91fc-5431452507fe","text":"JAVA组件学习"},{"id":"a33ce208-338f-43da-838f-5cbd4e15a1e1","text":"HttpdServer"},{"id":"77f835e2-728f-4c8e-a7de-cd4101246d67","text":"命令行 工具Linux、windows"},{"id":"dff3bd2e-ea20-43fc-85d5-cc168d5ad79e","text":"html css"},{"id":"1f7dcddc-7aa9-4f27-88df-f9975b4b1dcc","text":"MongoDB"},{"id":"7945b337-d9d5-4178-b0ac-fadaa3ceb5cd","text":"Vim"},{"id":"bca3e766-31b8-43b8-a6a8-c74e29e8fc89","text":"PHP学习"},{"id":"2b504200-899e-43a1-ab9b-b268aff8a66c","text":"Ubuntu"},{"id":"2a63ff53-9b4e-4d5d-bdeb-a06bcdca5528","text":"杂七杂八"},{"id":"1075bfba-45d9-42f3-8cf1-b54a31030c53","text":"c#学习"},{"id":"49130769-b0a9-4f6e-84dc-d3146c6d6588","text":"Bash Learning"},{"id":"e68dfc14-cfde-4391-aea6-9af580dd43d6","text":"物联网 zigbee"},{"id":"800a624c-f802-403b-a28d-6b3bf0ca8003","text":"汇编学习"},{"id":"34f2efca-e2aa-40e8-8dec-34b79ae99ec5","text":"操作系统实现"},{"id":"88e2d150-54ee-4538-80fb-24d23986e334","text":"牛人博客"},{"id":"e4db592b-181b-4f8b-bf58-b254ea379f00","text":"WordPress"},{"id":"535141db-cbaf-4e49-97c4-c0b7e93caebb","text":"Windows编程相关"},{"id":"44219fd7-ba2b-4c2e-95f9-3e3c3e034960","text":"python"},{"id":"b6c334aa-8638-45fa-832d-c326394ba927","text":"数据库"},{"id":"3dae2df1-eae8-44f9-b749-4b9c555780ec","text":"mysql"},{"id":"c50a5ad6-314f-4fa9-b0e2-ea9611c307ac","text":"Swing学习"},{"id":"14542e26-0eec-45f9-abd8-5a7a3bd5ea58","text":"groovy"},{"id":"5aad9760-b1d3-40f2-bb5f-ce3a62ebb031","text":"bochs"},{"id":"f6f8e26c-219d-4f0d-b384-c9beb31381ca","text":"POI解析excel"},{"id":"cbdae6e8-02ab-4723-8085-24d7bdbe1278","text":"redis使用"},{"id":"ff79561c-1c34-4804-89f6-45e3478bf283","text":"Lucense和ElasticSearch"},{"id":"5b81fa90-a5af-4369-8ff5-a64eca46d365","text":"sql语句"},{"id":"1de991ce-66c2-4f2e-9d39-19337fb0d145","text":"Java深入知识"},{"id":"d912be05-8f28-4d53-8c19-e81cd01f15f5","text":"Maven"},{"id":"de1b9d1a-1db0-41a4-86e0-0291e983354d","text":"PhoneGap"},{"id":"f2956154-331c-48fa-8982-59cac86d5b54","text":"js编程"},{"id":"336da210-0bc8-4531-a45e-5aa7a9bb8647","text":"Javascript"},{"id":"9877ba35-f9f5-4c3e-96db-9b361807790f","text":"GOLANG"},{"id":"cde18950-c6ac-4bfc-855b-53b02a1dc59a","text":"dubbo"},{"id":"82961f46-5059-4273-8ae9-fdd4cda171b6","text":"tomcat日志"},{"id":"1747b4a8-50d5-4b04-ac4d-b28012172e17","text":"docker"},{"id":"1ef5cde6-45ec-42ae-b72b-2ea765abbd4a","text":"测试"},{"id":"fd6eb782-11c7-4f48-9fc0-67824c514e7b","text":"ab"},{"id":"03189170-5e45-49a1-879e-0373909fa334","text":"notepad++"},{"id":"247c1dfc-0bac-4664-b09c-5c429e91a141","text":"idea编辑器"},{"id":"34078206-29d8-47ae-9682-3a8c30e3c962","text":"mybatis"},{"id":"62c879c8-d825-4984-a93b-54743871fac2","text":"jquery"},{"id":"10785ff4-6d26-4d92-b670-890397353d77","text":"日语"},{"id":"78c1e297-cadc-4700-9f2b-c5f8bee11625","text":"工作流"},{"id":"e694ef34-3f8f-41bd-b79a-6b9971633e5a","text":"分布式"},{"id":"56851c74-19e9-4d17-99a0-f3bd37a6e4b5","text":"并发相关"},{"id":"28eb4200-89b3-477b-bd08-9628b6bbe251","text":"kettle"},{"id":"5f3d05a4-ee50-4fb7-9fd5-54cce8dfde90","text":"freemarker"},{"id":"2a61f094-ecd0-45fe-8f11-f62650fb17d4","text":"android"},{"id":"00a82dfc-36d7-439e-86b9-4f8836ff3941","text":"程序安全"},{"id":"593f8c37-fb7f-4f36-9b0c-0356ca2a071d","text":"日剧"},{"id":"f944492c-252b-4e45-aedc-dc03293e1701","text":"日本亚马逊海淘"},{"id":"c5dc5be1-dc8e-44df-9c82-24a0352c7724","text":"fiddler"},{"id":"b6ecd135-34f3-4c93-a7b9-0c882ec2afd8","text":"一创记账"},{"id":"e55a6ec5-eed5-4e9a-bb8a-ecc9ebdf6318","text":"sublime"},{"id":"321bf0dd-1c4e-4be4-9b2a-4e1073ecfe2b","text":"理财"},{"id":"b92564fd-463d-48f5-b40d-aa6e2ca1c6fb","text":"人工智能"},{"id":"6fae8bab-4530-4ad6-a7eb-b2c3ad8c442c","text":"日本語computer"},{"id":"618f35ee-0865-43a9-885f-ad8d99b0b34b","text":"babun"},{"id":"855592e8-70b1-4bd6-899f-677c332c62e7","text":"健康"}]
+
+    
+
+    sidebarConfig = {
+        name: 'sidebar',
+        img: null,
+        nodes:listTags,
+        onClick: function(id, data) {
+            console.log(id);
+        }
+    }
+
+    sidebar = $('#sidebar').w2sidebar(sidebarConfig);
+
+
+    $("#tagQuery").on("keyup", function(evt) {
+
+        var val = $("#tagQuery").val().trim().toLowerCase()
+        
+        var filteredList = [];
+
+        for (var v in listTags) {
+
+            var text = listTags[v]["text"].toLowerCase();
+            if (text.indexOf(val) != -1) {
+                filteredList.push(listTags[v]);
+            }
+
+        }
+        sidebar.destroy();
+        sidebarConfig.nodes = filteredList;
+        sidebar = $('#sidebar').w2sidebar(sidebarConfig);
+    });
+}
+
 
 
 </script>
 
 <div id="layout" style="width: 100%; height: 100%;"></div>
 <div id="main">
-	
-<script id="container" name="content" type="text/plain">
+	<div>推薦のタグ</div>
+    <script id="container" name="content" type="text/plain"></script>
     
-</script>
-<!-- 	<textarea name="content" id="editor" style="">
-	</textarea> -->
+</div>
+
+<div id="left">
+    <div>
+        <input type="text" id="tagQuery" name="tagQuery" placeholder="query tags..." />
+    </div>
+    <div id="sidebar" style="height: 100%; width: 250px;"></div>
 </div>
 
 
-
+24919 55989
 <!--
 {% if latest_question_list %}
     <ul>
